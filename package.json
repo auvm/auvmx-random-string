@@ -1,0 +1,27 @@
+{
+  "name": "auvmx-random-string",
+  "version": "1.0.0",
+  "description": "Node package test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/auvm/auvmx-random-string.git"
+  },
+  "keywords": [],
+  "author": "auvm <angelurielvelascom@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/auvm/auvmx-random-string/issues"
+  },
+  "homepage": "https://github.com/auvm/auvmx-random-string#readme",
+  "bin": {
+    "auvm-random-string": "./bin/global.js"
+  },
+  "preferGlobal": true,
+  "dependencies": {
+    "user": "^0.0.0"
+  }
+}
